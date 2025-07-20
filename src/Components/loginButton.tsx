@@ -27,7 +27,7 @@ export default function LoginButton(){
         try {
           await signOut(auth);
         } catch (error) {
-      console.error("Erro ao sair:", error);
+      console.error("Erro ao sair", error);
         }
     };
 
